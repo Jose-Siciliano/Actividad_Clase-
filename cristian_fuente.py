@@ -6,7 +6,7 @@ while True:
     numero_secreto = random.randint(1, 10)
     intentos = 0
 
-    print("\nEstoy pensando en un número del 1 al 10.")
+    print("\nEstoy pensando en un número del 1 al      10.")
 
     while True:
         intento = int(input("Escribe tu número: "))
@@ -18,7 +18,7 @@ while True:
             print("Muy alto")
         else:
             print("Correcto")
-            print(f"Lo lograste en {intentos} intentos.")
+            print(f"Logrado en {intentos} intentos")
             break
 
     jugar = input("¿Quieres jugar otra vez? (1 = Sí, 2 = No): ")
